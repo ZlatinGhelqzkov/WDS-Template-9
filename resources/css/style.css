@@ -1,7 +1,7 @@
 /*##############################
 ############ RESET #############
 ##############################*/
-@import url(/resources/css/reset.css);
+@import url(./reset.css);
 
 
 
@@ -9,30 +9,30 @@
 /*##############################
 ########## TYPOGRAPHY ##########
 ##############################*/
-@import url(/resources/css/typograpghy/headings.css);
-@import url(/resources/css/typograpghy/paragraphs.css);
-@import url(/resources/css/typograpghy/links.css);
+@import url(./typograpghy/headings.css);
+@import url(./typograpghy/paragraphs.css);
+@import url(./typograpghy/links.css);
 
 
 
 /*##############################
 ########## COMPONENTS ##########
 ##############################*/
-@import url(/resources/css/components/grid.css);
-@import url(/resources/css/components/button.css);
+@import url(./components/grid.css);
+@import url(./components/button.css);
 
 
 
 /*##############################
 ########## SECTIONS ##########
 ##############################*/
-@import url(/resources/css/sections/header.css);
-@import url(/resources/css/sections/intro.css);
-@import url(/resources/css/sections/testimonials.css);
-@import url(/resources/css/sections/related-items.css);
-@import url(/resources/css/sections/cta.css);
-@import url(/resources/css/sections/companies.css);
-@import url(/resources/css/sections/footer.css);
+@import url(./sections/header.css);
+@import url(./sections/intro.css);
+@import url(./sections/testimonials.css);
+@import url(./sections/related-items.css);
+@import url(./sections/cta.css);
+@import url(./sections/companies.css);
+@import url(./sections/footer.css);
 
 
 :root{
