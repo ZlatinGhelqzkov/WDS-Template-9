@@ -1,0 +1,49 @@
+.intro{
+    height: 80rem;
+    background: var(--primary-color);
+    position: relative;
+    padding-top: 12rem;
+}
+
+.intro__image-phone{
+    position: relative;
+    display: none;
+}
+
+@media(min-width: 992px){
+    .intro__image-phone{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 1.8rem;
+        bottom: 0;
+    }
+}
+
+.intro__image-phone img{
+    filter: drop-shadow(-40px 0px 25px rgba(0 0 0 / 0.4));
+    object-fit: cover;
+}
+
+.intro__inner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.intro-title{
+    margin-bottom: 1.5rem;
+}
+
+.intro-subtitle{
+    max-width: 51rem;
+    margin-bottom: 3.8rem;
+}
+
+.intro__button-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}

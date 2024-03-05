@@ -1,0 +1,31 @@
+.companies{
+    text-align: center;
+}
+
+.companies-title{
+    font-size: 2rem;
+    color:#000;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.companies-list{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 8.5rem;
+}
+
+.companies-item{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.companies-link{
+    height: 100%;
+    display: flex;
+}

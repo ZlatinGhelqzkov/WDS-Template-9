@@ -1,0 +1,42 @@
+/*##############################
+############ RESET #############
+##############################*/
+@import url(/resources/css/reset.css);
+
+
+
+
+/*##############################
+########## TYPOGRAPHY ##########
+##############################*/
+@import url(/resources/css/typograpghy/headings.css);
+@import url(/resources/css/typograpghy/paragraphs.css);
+@import url(/resources/css/typograpghy/links.css);
+
+
+
+/*##############################
+########## COMPONENTS ##########
+##############################*/
+@import url(/resources/css/components/grid.css);
+@import url(/resources/css/components/button.css);
+
+
+
+/*##############################
+########## SECTIONS ##########
+##############################*/
+@import url(/resources/css/sections/header.css);
+@import url(/resources/css/sections/intro.css);
+@import url(/resources/css/sections/testimonials.css);
+@import url(/resources/css/sections/related-items.css);
+@import url(/resources/css/sections/cta.css);
+@import url(/resources/css/sections/companies.css);
+@import url(/resources/css/sections/footer.css);
+
+
+:root{
+  --primary-color: #bf2026;
+  --secondary-text-color: #58585a;
+  --subtitle-color: #777777;
+}

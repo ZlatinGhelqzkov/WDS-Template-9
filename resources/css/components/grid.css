@@ -1,0 +1,32 @@
+.wrapper{
+    max-width: 111rem;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    padding: 0rem 1.5rem;
+}
+
+@media(min-width: 1024px){
+    .wrapper{
+        padding: 0;
+    }
+}
+
+.wrapper--big{
+    max-width: 180rem;
+    padding: 0rem 1.5rem;
+}
+
+@media(min-width: 1400px){
+    .wrapper--big{
+        padding: 0;
+    }
+}
+
+.padding-y-100{
+    padding: 10rem 0;
+}
+
+.padding-t100-b85{
+    padding: 10rem 0 8.5rem 0;
+}

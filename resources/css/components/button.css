@@ -1,0 +1,28 @@
+.button{
+    display: block;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.9rem 4.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: var(--primary-color);
+    box-shadow: 0 0 3px #000;
+}
+
+.button--inverted{
+    background-color: #fff;
+    color: var(--primary-color);
+}
+
+.button--inverted:hover{
+    background: var(--primary-color);
+    color: #fff;
+    box-shadow: 0 0 3px #fff;
+}
